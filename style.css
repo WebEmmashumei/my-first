@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,700;1,400&display=swap');
+body {
+    font-family: 'Exo 2';
+    background-color: #F7F7FF;
+}
+
+header {
+    text-align: center;
+    margin: 30px
+}
+
+main {
+    width: 900px;
+    margin: auto;
+}
+
+div {
+    border-radius: 16px;
+    width: 180px;
+    height: 90px;
+    padding: 15px;
+    background-color: #bf2424;
+    margin: auto;
+    font-weight: 700;
+    color: aliceblue;
+    display: inline-block;
+    /* если у вас все слитает как у меня то проблемы заказчика а не мои, так как все как в информатиксе. ТЗ надо лучше писать */
+
+}
+
+.number{
+    font-weight: 300;
+}
+
+.color1{
+    background-color: #24bf58;
+}
+
+.color2{
+    background-color: #2436bf;
+}
+
+.color3{
+    background-color: #bc24bf;
+}
+
+.span{
+    width: 900px;
+    border-radius: 16px;
+    border: 1px solid #222;
+    height: 90px;
+    padding: 10px;
+    margin: 10px 0px;
+    display: block;
+}
+
+.left{
+    text-align: left;
+    display: inline-block;
+    width: 280px;
+}
+
+.centre{
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+}
+
+.right{
+    text-align: right;
+    display: inline-block;
+    width: 280px;
+}
+
+.arxiv{
+    border-radius: 16px;
+    /*да простите меня за название*/
+    background-color: #eee;
+    text-align: center;
+    height: 256px;
+    width: 768px;
+    border:  2px dashed #222;
+    color: #000000;
+    margin: auto;
+    padding: 200px 99px;
+    /*у меня так выглядит нормально*/
+}
+
+footer{
+    font-weight: 100;
+}
